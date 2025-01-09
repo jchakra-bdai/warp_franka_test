@@ -4,7 +4,8 @@ version = "0.1.0"
 dependencies = [
 "warp-lang",
 "trimesh",
-"pyglet"
+"pyglet",
+"torch",
 ]
 [tool.pixi.project]
 channels = ["conda-forge"]

@@ -11,5 +11,4 @@ otherwise install the dependencies in pyproject.toml and run
 python test.py
 ```
 
-
-The robot explodes :(
+Minimal example of Franka in Warp

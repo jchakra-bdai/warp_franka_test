@@ -203,9 +203,6 @@
     </collision>
   </link>
   <link name="panda_rightfinger">
-    <visual>
-      <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
-    </visual>
     <collision>
       <origin rpy="0 0 3.14159265359" xyz="0 0 0"/>
       <geometry>
