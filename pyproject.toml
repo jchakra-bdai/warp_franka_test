@@ -6,10 +6,19 @@ dependencies = [
 "trimesh",
 "pyglet",
 "torch",
+"panda-python@git+https://github.com/jc211/panda-py",
+"panda_desk@git+https://github.com/jc211/panda_desk@9c2271ee4d2f707fb4e2151d3ccdabbcb045a446"
 ]
 [tool.pixi.project]
-channels = ["conda-forge"]
+channels = ["jc211", "conda-forge"]
 platforms = ["linux-64"]
 
 [tool.pixi.tasks]
 start = "python test.py"
+live = "python test_live.py"
+
+[tool.pixi.dependencies]
+libfranka = "*"
+ruckig = "*"
+eigen = "*"
+
